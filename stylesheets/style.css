@@ -1,0 +1,73 @@
+:root {
+	--main-color: #0033a0;
+	--secondary-color: #ed1c24;
+}
+
+body {
+	color: var(--main-color);
+}
+
+.top {
+	text-align:center;
+	margin-top:25px;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.divline{
+	height:10px;
+	background-color:var(--secondary-color);
+}
+
+.divline-top{
+	margin-top:25px;
+}
+
+.divline-bottom{
+	margin-bottom:25px;
+}
+
+.navbutton {
+	background-color:var(--main-color);
+	color:white !important;
+	padding:1%;
+	text-align:center;
+}
+
+.navbutton:hover {
+	background-color:white;
+	color:var(--main-color) !important;
+}
+
+.navbar {
+	padding:0px;
+}
+
+.navbar a:link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.navbar a:active {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.emphasized {
+	color: var(--secondary-color);
+	font-weight:bold;
+}
+
+.flyer img{
+	height:200px;
+}
